@@ -100,6 +100,7 @@ header{
     align-items: center;
     text-align: center;
     width: 100%;
+    padding-bottom: 100px;
 }
  
 #MainTitle2{
@@ -141,5 +142,9 @@ header{
     font-weight: 500;
     padding-right: 20px;
     padding-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif002                                                                                                         ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;                                                                                                        ;
+}
+
+#ResearchTitle{
+    width: 
 }
