@@ -1,0 +1,130 @@
+body{
+    text-decoration: none;
+    background-image: url(Images/IMG_8393.JPG);
+    background-size:cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.DSRL-Logo{
+    height: 90px;
+    border-radius: 5%;
+    position: absolute;
+    top: 3px;
+}
+
+
+.navbar{
+    display: flex;
+    font-size: 25px;  
+    font-family: 'Archivo';
+    text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -35px;
+  color: #000000;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: rgb(255, 255, 255);
+  width: 99%;
+  border:solid 11px #ffffff;
+  margin-left: -9px;
+}
+
+body{
+    text-decoration: none;
+}
+
+.DSRL-Logo{
+    height: 90px;
+    border-radius: 5%;
+    position: absolute;
+    top: 3px;
+}
+
+
+.navbar{
+    display: flex;
+    font-size: 25px;  
+    font-family: 'Archivo';
+    text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -35px;
+  color: #000000;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: rgb(255, 255, 255);
+  width: 99%;
+  border:solid 11px #ffffff;
+  margin-left: -9px;
+
+  
+}
+
+#SiteName{
+    top: -.5px;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    left: 115px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 170%;
+    color: #000000;
+}
+
+
+
+.btn12{
+    text-decoration: none;
+    color: #000000;
+}
+.btn12 :visited{
+    color: #000000;
+}
+
+
+#Title{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if necessary) */
+    width: 100%; /* Full-width container */
+}
+
+
+#Title2{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if necessary) */
+    width: 100%; /* Full-width container */
+}
+
+#ResearchTopic {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+ 
+#MainTitle{
+    font-size: 60px;
+    color: rgb(37, 35, 35);
+}
+
+#FirstPic{
+
+    width:50%;
+    height:50%;
+    border: 3px solid rgba(0, 0, 0, 0.43);
+    border-radius: 10px;
+    align-items: center;
+
+}

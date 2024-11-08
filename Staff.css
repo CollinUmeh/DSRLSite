@@ -1,0 +1,185 @@
+body{
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.DSRL-Logo{
+    height: 90px;
+    border-radius: 5%;
+    position: absolute;
+    top: 3px;
+}
+
+
+.navbar{
+    display: flex;
+    font-size: 25px;  
+    font-family: 'Archivo';
+    text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -35px;
+  color: #000000;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: rgb(255, 255, 255);
+  width: 99%;
+  border:solid 11px #ffffff;
+  margin-left: -9px;
+}
+
+body{
+    text-decoration: none;
+    background-image: url(Images/IMG_8393.JPG);
+    background-size:cover;
+    color:#1e1d1d
+}
+
+.DSRL-Logo{
+    height: 90px;
+    border-radius: 5%;
+    position: absolute;
+    top: 3px;
+}
+
+
+.navbar{
+    display: flex;
+    font-size: 25px;  
+    font-family: 'Archivo';
+    text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -35px;
+  color: #000000;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: rgb(255, 255, 255);
+  width: 99%;
+  border:solid 11px #ffffff;
+  margin-left: -9px;
+
+  
+}
+
+#SiteName{
+    top: -.5px;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    left: 115px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 170%;
+    color: #000000;
+}
+
+#MainTitle{
+    font-size: 60px;
+    color: rgb(37, 35, 35);
+}
+
+.MeetHosts{
+    padding-bottom: 100px;
+}
+
+.btn12{
+    text-decoration: none;
+    color: #000000;
+}
+.btn12 :visited{
+    color: #000000;
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if necessary) */
+    width: 100%; /* Full-width container */
+
+}
+
+#Title{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if necessary) */
+    width: 100%; /* Full-width container */
+}
+
+
+
+
+
+.card-container {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
+    margin: 30px; /* Space around each card */
+    max-width: 300px; /* Ensure cards don’t get too wide */
+    padding:40px
+}
+
+.card {
+    width: 300px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height to ensure a square aspect ratio */
+    background-color: rgba(242, 242, 242, 0);
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.335);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Archivo';
+    
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the area while maintaining its aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.card-content {
+    padding: 10x;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    font-size: 15px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+ 
+ #cards {
+     display: flex;
+     flex-wrap: wrap; /* Allows the cards to wrap to the next line if necessary */
+     justify-content: center; /* Center the cards in the container */
+     gap: 20px; /* Adds space between the cards */
+     padding: 20px; /* Adds padd*/
+ }
+
+
+ 
+@keyframes slide-down {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+ 

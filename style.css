@@ -1,6 +1,10 @@
 body{
     text-decoration: none;
+    background-image: url(Images/IMG_8389.JPG);
+    background-size:cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 .DSRL-Logo{
     height: 90px;
@@ -45,57 +49,97 @@ header{
     color: #000000;
 }
 
-#HostingTitle{
-
-    text-align: center;
-    padding: 20px;
-    color: #000000;
-    font-weight: 900;
-    font-size: 60px;
-    width:95%;
-    text-shadow: 1.2px 1.2px #655a5a;
-    font-family: 'Archivo Black',sans-serif;
-    line-height: 95%;
-}
-#HostingTitle2{
-
-    text-align: center;
-    padding: 20px;
-    color: #000000;
-    font-weight: 900;
-    font-size: 60px;
-    width:95%;
-    text-shadow: 1.2px 1.2px #655a5a;
-    font-family: 'Archivo Black',sans-serif;
-    line-height: 95%;
-}
-#HostingTitle3{
-
-    text-align: center;
-    padding: 20px;
-    color: #000000;
-    font-weight: 900;
-    font-size: 60px;
-    width:100%;
-    text-shadow: 1.2px 1.2px #655a5a;
-    font-family: 'Archivo Black',sans-serif;
-    line-height: 95%;
-}
-
-#EventDetails{
-    display: flex;
-    font-size: 12px;
-    font-family: 'Archivo';
-    line-height: 300%;
-    padding-top: 150px;
-    padding-bottom: 120px;
-
-}
-
 .btn12{
     text-decoration: none;
     color: #000000;
 }
 .btn12 :visited{
     color: #000000;
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if necessary) */
+    width: 100%; /* Full-width container */
+
+}
+
+#Title{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if necessary) */
+    width: 100%; /* Full-width container */
+    text-shadow: #000;
+}
+
+
+
+#FirstPic{
+
+    width:50%;
+    height:50%;
+    border: 3px solid rgba(0, 0, 0, 0.43);
+    border-radius: 10px;
+}
+
+#MainTitle{
+    font-size: 60px;
+    color: rgb(37, 35, 35);
+}
+
+#Statement{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+#ResearchTopic {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+ 
+#MainTitle2{
+    font-size: 60px;
+    color: rgb(37, 35, 35);
+    padding-top: 150px;
+    text-align: center;
+}
+
+#FirstPic2{
+
+    width:40%;
+    height:40%;
+    border: 3px solid rgba(0, 0, 0, 0.43);
+    border-radius: 10px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+#Title2{
+    text-align: left;
+    width: 70%; /* Text will take up 60% of the container */
+    margin: 0 auto; /* Centers the text block */
+    font-size: 30px;
+    color: #000;
+}
+
+#Title3{
+    text-align: left;
+    width: 70%; /* Text will take up 60% of the container */
+    margin: 0 auto; /* Centers the text block */
+    font-size: 30px;
+    color: #000;
+}
+
+#Normal{
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif002                                                                                                         ;
 }
