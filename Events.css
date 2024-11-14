@@ -162,15 +162,17 @@ header{
     height: 50%;
     max-width: 70%;
     opacity: 40%;
+    border: 2px solid black;
 }
 
 
 #FirstPic2{
     display: block;
-    height: 50%;
-    max-width: 66%;
+    height: 40%;
+    max-width: 62%;
     border:5px 5px black;
-    margin-right: 90px;
+    margin-right: 150px;
+    border: 2px solid black;
 }
 
 
