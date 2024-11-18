@@ -6,6 +6,7 @@
     <title>DSRL Lab</title>
     <link href="style.css" rel="Stylesheet">
     <link rel="Icon" type="x-icon" href="Images/DSRL Logo Transparent Background (2).png">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,7 +24,23 @@
         <h1 id="MainTitle"> Data Science Research Lab</h1>
     </div>
     <div class="slider-container">
-        <img src="Images/Data Science Conference Pictures/Data Science Lab Front Page poster.png" id="FirstPic">
+        <section aria-label="Newest Photos">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button> &#8656</button>
+                <button class="carousel-button next" data-carousel-button> &#8658</button>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <img src="Images/Data Science Conference Pictures/Data Science Lab Front Page poster.png">
+                    </li>
+                    <li class="slide">
+                        <img src="Images/GroupDataSciencePicture.jpg">
+                    </li>
+                    <li class="slide">
+                        <img src="Images/Data Science Conference Pictures/GroupImage1.png">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
     <div id="Statement">
         <h1>Our Mission</h1>
