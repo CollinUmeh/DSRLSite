@@ -5,7 +5,7 @@
 
 body{
     text-decoration: none;
-    background-image: url(Images/IMG_8389.JPG);
+    background-image: url(Images/IMG_8393.JPG);
     background-size:cover;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -14,14 +14,18 @@ body{
     height: 80px;
     border-radius: 5%;
     position: absolute;
-    top: 3px;  
+    top: 3px;
 }
+
 
 .navbar{
     display: flex;
     font-size: 26px;  
     text-decoration: none;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 190px;
+    justify-content: space-between;
+ 
 }
 
 header{
@@ -30,19 +34,21 @@ header{
   margin-top: -35px;
   color: #000000;
   width: 100%;
+  height: 100%;
   padding: 10px 5px;
   background-color: rgb(255, 255, 255);
   width: 99%;
-  border:solid 11px #ffffff;
+  
   margin-left: -9px;
+  border-right:solid 23px white ;
 }
 
 #SiteName{
-    top: -.5px;
+    top: 20px;
     position: absolute;
     width: 100px;
     height: 70px;
-    left: 115px;
+    left: 90px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
     font-size: 16px;
@@ -50,20 +56,12 @@ header{
     color: #000000;
 }
 
-#EventDetails{
-    display: flex;
-    font-size: 12px;
-    font-family: 'Archivo';
-    line-height: 300%;
-    padding-top: 150px;
-    padding-bottom: 120px;
-}
-
 .btn12{
     text-decoration: none;
     color: #000000;
+    padding-right: 50px;
+    padding-top: 20px;
 }
-
 .btn12 :visited{
     color: #000000;
 }
@@ -117,18 +115,22 @@ header{
 
 #FirstPic{
     display: block;
-    height: 40%;
-    max-width: 60%;
-    opacity: 40%;
-    border: 2px solid black;
-}
+    height: 30%;
+    max-width: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.928);
+    border-radius: 20px;
+    box-shadow:5px 5px 5px  #0000006e;
 
+}
 
 #FirstPic2{
     height: 60%;
     max-width: 50%;
     border:5px 5px black;
     border: 2px solid black;
+    border: 5px solid rgba(0, 0, 0, 0.928);
+    border-radius: 20px;
+    box-shadow:5px 5px 5px  #0000006e;
 }
 
 .text-overlay {

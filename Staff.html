@@ -5,46 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSRL Lab</title>
     <link href="Staff.css" rel="Stylesheet">
+    <link rel="Icon" type="x-icon" href="Images/DSRL Logo Transparent Background (2).png">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
-        <a href="#"></a><img src="Images/DSRL Logo Transparent Background (2).png" class="DSRL-Logo">
-            <h1 id="SiteName">Data Science Research Lab </h1>
+            <h1 id="SiteName">DSLR </h1>
+            <div>
+                <a href="#"></a><img src="Images/DSRL Logo Transparent Background (2).png" class="DSRL-Logo">
+                <h1 id="MainTitle"> Data Science Research Lab</h1>
+            </div>
+
             <nav class="navbar">
                 <a href='index.html'class="btn12" ><ul>About</ul></a>
-                <a href='#ResearchTopic' class="btn12" ><ul>Research</ul></a>
+                <a href='SocialWork.html' class="btn12" ><ul>Research</ul></a>
                 <a href='Staff.html'class="btn12" ><ul>Staff</ul></a> 
-                <a href='Events.html'class="btn12" ><ul>Events</ul></a>             
+                <a href='Events.html'class="btn12" ><ul>Events</ul></a>              
             </nav>
     </header>
+    <script src="main.js" defer></script>
     <div id="Title">
-        <h1 id="MainTitle"> Data Science Research Lab</h1>
+        <h1 id="MainTitle2"> Data Science Research Lab</h1>
     </div>
         <div class="MeetHosts">
             <div id="cards">
                 <div class="card-container">
                     <div class="card">
-                        <img src="Images/dr_chouchane.png">
+                        <img src="Images/dr_chouchane.png"> <button class="open-modal-btn" data-modal="modal5">Open Modal 1</button>
                     </div>
                     <h1>Dr. Chouchane</h1>
-                    <h2>Assocaite Professor at Morgan</h2>
+                    <div id="modal5" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <h2>Dr. Chouchane</h2>
+                            <p>Radhouane Chouchane is passionate about developing and delivering quality projects that build on the current developments in cloud computing, machine learning and natural language processing.
+                                  His ongoing research interests aim to use ML and NLP in the cloud to support the activities of social workers in Baltimore City and other areas where there is potential for data to yield helpful insights that social workers can use in their day-to-day activities.
+                                  Since 2011, Radhouane Chouchane has been actively involved with such organizations as STARS,
+                                 WIT and NCWIT whose mission is to broaden the participation of underrepresented minorities in computing.</p>
+                        </div>
+                    </div>
+
+                    <h2>Associate Professor at Morgan</h2>
                 </div>
             </div>
             <div id="cards">
                 <div class="card-container">
                     <div class="card">
-                        <img src="Images/Data Science Conference Pictures/Prop-photo.JPG">
+                        <img src="Images/Data Science Conference Pictures/Prop-photo.JPG"> <button class="open-modal-btn" data-modal="modal1">Open Modal 1</button>
                     </div>
                     <h1>Collin Umeh</h1>
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <h2>Collin Umeh</h2>
+                            <p>Collin Umeh is an Undergraduate Student that studies Computer Science.He is currently a research assistant under the Data Science Research Lab 
+                                at Morgan State. Collin is interested with full-stack engineering. His most valuable experience is in web-development and is currently intrested in Data Science process
+                                 and has completed a research project in collaberation with the Social Work Department at Morgan State about Data Science in Social Work.
+
+                            </p>
+                        </div>
+                    </div>
                     <h2>Undegraduate Student</h2>
                     <p>Active Member</p>
                 </div>
             <div id="cards">
                 <div class="card-container">
                     <div class="card">
-                        <img src="Images/Data Science Conference Pictures/bezaleel.png">
+                        <img src="Images/Data Science Conference Pictures/bezaleel.png" > <button class="open-modal-btn" data-modal="modal2">Open Modal 1</button>
+
                     </div>
                     <h1>Bezaleel Akinbami</h1>
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <h2>Bezaleel Akinbami</h2>
+                            <p>Bezaleel is interested in the creation of bio-artificial organs and aspires to engineer organs that emulate natural functions through machine learning.
+                                 Specifically,
+                                 I am intrigued by the prospect of developing an AI-driven heart capable of independent action..</p>
+                        </div>
+                    </div>
                     <h2>Graduate Student</h2>
                     <p>Active Member</p>
                 </div>
@@ -52,9 +91,19 @@
         <div id="cards">
             <div class="card-container">
                 <div class="card">
-                    <img src="Images/Data Science Conference Pictures/caleb.png">
+                    <img src="Images/Data Science Conference Pictures/caleb.png"> <button class="open-modal-btn" data-modal="modal3">Open Modal 1</button>
                 </div>
                 <h1>Caleb Kadiri</h1>
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn">&times;</span>
+                        <h2>Caleb Kadiri</h2>
+                        <p>Caleb Kadiri is a committed research assistant and a graduate student in advanced computing, possessing a solid background in pharmacy.
+                             His academic and professional endeavors are motivated by a dedication to closing the divide between health and information technology.
+                              Holding a Bachelor's degree in Pharmacy and currently undertaking a Master of Science degree in Advanced Computing, Caleb serves as a research assistant.
+                               His current research focuses on employing Machine learning in cloud environments to enhance the work of social workers in Baltimore City and other regions where data analysis can provide valuable insights for their daily tasks.</p>
+                    </div>
+                </div>
                 <h2>Graduate Student</h2>
                 <p>Active Member</p>
             </div>
@@ -63,7 +112,17 @@
     <div id="cards">
         <div class="card-container">
             <div class="card">
-                <img src="Images/Data Science Conference Pictures/dapiriye.png">
+                <img src="Images/Data Science Conference Pictures/dapiriye.png"> <button class="open-modal-btn" data-modal="modal4">Open Modal 1</button>
+            </div>
+            <div id="modal4" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Dapiriye Briggs</h2>
+                    <p>Dapiriye Briggs is enthusiastic about utilizing data science and artificial intelligence to engineer sustainable systems, 
+                        particularly in under-served communities, with a focus on enhancing societal infrastructure.
+                         Her dedication extends to critical domains such as health, education, and sports,
+                         where she envisions leveraging these technologies to enhance overall well-being.</p>
+                </div>
             </div>
             <h1>Dapiriye Briggs</h1>
             <h2>Graduate Student</h2>
