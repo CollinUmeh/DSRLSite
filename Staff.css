@@ -1,5 +1,4 @@
 body{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     background-image: url(Images/IMG_8393.JPG);
     background-size:cover;
@@ -16,7 +15,7 @@ body{
     display: flex;
     font-size: 26px;  
     text-decoration: none;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     margin-right: 190px;
     justify-content: space-between;
  
@@ -44,7 +43,7 @@ header{
     width: 100px;
     height: 70px;
     left: 90px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;   
     font-style: normal;
     font-size: 16px;
     line-height: 170%;
@@ -58,6 +57,7 @@ header{
     margin-left: 190px; /* Adjust the value as needed */
     text-align: right; /* Ensures text aligns to the right within the element */
     padding-top: 10px;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -67,6 +67,7 @@ header{
     text-shadow: 2px #292525;
     text-align: right; /* Ensures text aligns to the right within the element */
     padding-top: 10px;
+
 }
 
 .btn12{
@@ -219,3 +220,10 @@ header{
 .close-btn:hover {
     color: red;
 }
+ #information{
+    font-family:Cambria, Cochin, Georgia, Times, serif;
+ }
+
+ #HostName{
+    font-family: 'Playfair Display', serif;
+ }

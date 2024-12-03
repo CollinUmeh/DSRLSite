@@ -1,13 +1,12 @@
 *{
     scroll-behavior: smooth;
-    zoom: 93%;
 }
 
 body{
     text-decoration: none;
     background-image: url(Images/IMG_8393.JPG);
     background-size:cover;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .DSRL-Logo{
@@ -22,7 +21,7 @@ body{
     display: flex;
     font-size: 26px;  
     text-decoration: none;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     margin-right: 190px;
     justify-content: space-between;
  
@@ -38,7 +37,7 @@ header{
   padding: 10px 5px;
   background-color: rgb(255, 255, 255);
   width: 99%;
-  
+
   margin-left: -9px;
   border-right:solid 23px white ;
 }
@@ -49,7 +48,7 @@ header{
     width: 100px;
     height: 70px;
     left: 90px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-size: 16px;
     line-height: 170%;
@@ -59,8 +58,8 @@ header{
 .btn12{
     text-decoration: none;
     color: #000000;
-    padding-right: 50px;
     padding-top: 20px;
+    padding-right: 30px;
 }
 .btn12 :visited{
     color: #000000;
@@ -78,7 +77,7 @@ header{
 }
 
 #Title{
-    display: flex;
+
     justify-content: center; /* Centers the image horizontally */
     align-items: center; /* Centers the image vertically (if necessary) */
     width: 100%; /* Full-width container */
@@ -147,8 +146,24 @@ header{
 }
 
 #MainTitle{
-    font-size: 60px;
-    color: rgb(37, 35, 35);
+    display:flex;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px #292525;
+    margin-left: 200px; /* Adjust the value as needed */
+    text-align: right; /* Ensures text aligns to the right within the element */
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#MainTitle2{ 
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px #292525;
+    text-align: center; /* Ensures text aligns to the right within the element */
+    padding-top: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
