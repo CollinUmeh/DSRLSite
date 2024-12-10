@@ -24,6 +24,7 @@ body{
     font-family: 'Playfair Display', serif;
     margin-right: 190px;
     justify-content: space-between;
+    
  
 }
 
@@ -37,7 +38,6 @@ header{
   padding: 10px 5px;
   background-color: rgb(255, 255, 255);
   width: 99%;
-  
   margin-left: -9px;
   border-right:solid 23px white ;
 }
@@ -63,6 +63,10 @@ header{
 }
 .btn12 :visited{
     color: #000000;
+}
+
+.btn12 :hover{
+    color: #8358c4;
 }
 
 .slider-container{
@@ -167,6 +171,16 @@ header{
     align-items: center; /* Centers the image vertically (if necessary) */
     width: 100%; /* Full-width container */
     text-shadow: #000;
+    
+}
+
+#Title2{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if necessary) */
+    width: 100%; /* Full-width container */
+    text-shadow: #000;
+   
 }
 
 
@@ -189,10 +203,21 @@ header{
     padding-top: 10px;
 }
 
-#Statement{
+.Statement{
     text-align: center;
     padding-bottom: 100px;
+    padding-top: 80px;
+    line-height: 2;
+    font-size: 25px;
 }
+
+#Statement2{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 120px;
+    font-size:28px
+}
+
 
 
 #ResearchTopic {
@@ -207,7 +232,8 @@ header{
 #MainTitle2{
     font-size: 60px;
     color: #000000;
-    padding-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 90px;
     text-align: center;
     text-shadow: 2px 2px 2px #292525;
 }
@@ -226,7 +252,7 @@ header{
     text-align: left;
     width: 70%; /* Text will take up 60% of the container */
     margin: 0 auto; /* Centers the text block */
-    font-size: 30px;
+    font-size: 28px;
     color: #000;
 }
 
@@ -235,9 +261,13 @@ header{
     width: 50%; /* Text will take up 60% of the container */
     margin: 0 auto; /* Centers the text block */
     font-size: 30px;
-    color: #000;
     font-size: 40px;
    
+}
+#Title3 .btn12 {
+    text-decoration: none; /* Remove underline */
+    font-size: inherit; /* Inherit size from parent */
+    color: #000000; /* Ensure consistent link color */
 }
 
 #Normal{
@@ -247,6 +277,79 @@ header{
     padding-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;                                                                                                        ;
 }
+
+#discover{
+    font-size: small;
+    
+    position:relative;
+}
+
+.padlet-embed{
+    padding-bottom: 50px;
+    border: 2px solid black;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 101%;
+    margin-left: -7.8px;
+    padding-bottom: -10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #bbb;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
 
 
 /* @media (max-width: 768px) {
