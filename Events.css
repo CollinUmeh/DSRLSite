@@ -167,3 +167,62 @@ header{
 
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 101%;
+    margin-left: -7.8px;
+    padding-bottom: -10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #bbb;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
