@@ -2,11 +2,12 @@
     scroll-behavior: smooth;
 }
 
+
 body{
-    text-decoration: none;
+
     background-image: url(Images/IMG_8389.JPG);
     background-size:cover;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
 }
 
 .DSRL-Logo{
@@ -21,12 +22,11 @@ body{
     display: flex;
     font-size: 26px;  
     text-decoration: none;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     margin-right: 190px;
     justify-content: space-between;
-    
- 
 }
+
 
 header{
   display: flex;
@@ -42,13 +42,14 @@ header{
   border-right:solid 23px white ;
 }
 
+
 #SiteName{
     top: 20px;
     position: absolute;
     width: 100px;
     height: 70px;
     left: 90px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
     font-style: normal;
     font-size: 16px;
     line-height: 170%;
@@ -61,11 +62,27 @@ header{
     padding-top: 20px;
     padding-right: 30px;
 }
+
+
 .btn12 :visited{
     color: #000000;
 }
-
 .btn12 :hover{
+    color: #8358c4;
+}
+
+
+
+.btn13{
+    color: #000000;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.btn13 :visited{
+    color: #000000;
+}
+
+.btn13 :hover{
     color: #8358c4;
 }
 
@@ -233,7 +250,7 @@ header{
     font-size: 60px;
     color: #000000;
     padding-top: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 70px;
     text-align: center;
     text-shadow: 2px 2px 2px #292525;
 }
@@ -262,12 +279,6 @@ header{
     margin: 0 auto; /* Centers the text block */
     font-size: 30px;
     font-size: 40px;
-   
-}
-#Title3 .btn12 {
-    text-decoration: none; /* Remove underline */
-    font-size: inherit; /* Inherit size from parent */
-    color: #000000; /* Ensure consistent link color */
 }
 
 #Normal{
@@ -275,14 +286,16 @@ header{
     font-weight: 500;
     padding-right: 20px;
     padding-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;                                                                                                        ;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
 }
 
 #discover{
     font-size: small;
-    
+    text-decoration:solid;
     position:relative;
 }
+
 
 .padlet-embed{
     padding-bottom: 50px;
@@ -349,7 +362,6 @@ footer {
     border-top: 1px solid #555;
     padding-top: 10px;
 }
-
 
 
 /* @media (max-width: 768px) {

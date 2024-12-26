@@ -15,7 +15,7 @@ body{
     display: flex;
     font-size: 26px;  
     text-decoration: none;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     margin-right: 190px;
     justify-content: space-between;
  
@@ -43,7 +43,7 @@ header{
     width: 100px;
     height: 70px;
     left: 90px;
-    font-family: 'Playfair Display', serif;   
+    font-family: 'Merriweather', serif;
     font-style: normal;
     font-size: 16px;
     line-height: 170%;
@@ -57,7 +57,7 @@ header{
     margin-left: 190px; /* Adjust the value as needed */
     text-align: right; /* Ensures text aligns to the right within the element */
     padding-top: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
 }
 
 
@@ -67,16 +67,26 @@ header{
     text-shadow: 2px #292525;
     text-align: right; /* Ensures text aligns to the right within the element */
     padding-top: 10px;
+    font-family: 'Merriweather', serif;
+
+    
 
 }
 
 .btn12{
     text-decoration: none;
     color: #000000;
-    padding-right: 30px;
     padding-top: 20px;
+    padding-right: 30px;
 }
 
+
+.btn12 :visited{
+    color: #000000;
+}
+.btn12 :hover{
+    color: #8358c4;
+}
 .MeetHosts{
     padding-bottom: 100px;
 }
@@ -125,9 +135,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Archivo';
-    
+    font-family: 'Merriweather', serif;    
 }
+
+
 
 .card img {
     width: 100%;
@@ -135,6 +146,8 @@ header{
     object-fit: cover; /* Ensures the image fills the area while maintaining its aspect ratio */
     border-radius: 50%; /* Makes the image circular */
 }
+
+
 
 .card-content {
     padding: 10px;
@@ -159,6 +172,12 @@ header{
     gap: 20px; /* Adds space between the cards */
     padding: 20px; /* Adds padd*/
 }
+
+ .card:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition */
+}
+
 
 @keyframes slide-down {
     from {
@@ -225,8 +244,7 @@ header{
  }
 
  #HostName{
-    font-family: 'Playfair Display', serif;
- }
+    font-family: 'Merriweather', serif; }
 
  footer {
     background-color: #333;

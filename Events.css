@@ -6,8 +6,7 @@ body{
     text-decoration: none;
     background-image: url(Images/IMG_8393.JPG);
     background-size:cover;
-    font-family: 'Playfair Display', serif;
-}
+    font-family: 'Merriweather', serif;}
 
 .DSRL-Logo{
     height: 80px;
@@ -21,7 +20,7 @@ body{
     display: flex;
     font-size: 26px;  
     text-decoration: none;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     margin-right: 190px;
     justify-content: space-between;
  
@@ -48,7 +47,7 @@ header{
     width: 100px;
     height: 70px;
     left: 90px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     font-style: normal;
     font-size: 16px;
     line-height: 170%;
@@ -66,14 +65,20 @@ header{
 }
 
 .slider-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Full-width container */
-    margin: 0 auto; /* Centers horizontally */
-    padding: 70px 0; /* Optional: adds padding around the content */
-    min-height: calc(100vh - 200px); /* Adjust for header/footer height */
-    position: relative;
+    display: flex;           /* Enables Flexbox layout */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically */
+    margin: 20px auto;       /* Adds spacing and centers the container itself */
+    width: 100%;             /* Ensures the container spans the full width */
+    text-align: center;      /* Ensures centered text if added */
+}
+
+.slider-container img {
+    max-width: 50%;          /* Ensures images scale to 50% of their container width */
+    height: auto;            /* Maintains the aspect ratio */
+    border: 5px solid rgba(0, 0, 0, 0.928); /* Optional: adds a border */
+    border-radius: 20px;     /* Rounds the corners */
+    box-shadow: 5px 5px 5px #0000006e; /* Optional: adds a shadow effect */          /* Eliminates inline spacing artifacts */
 }
 
 #Title{
@@ -89,7 +94,8 @@ header{
     align-items: center; /* Centers the image vertically (if necessary) */
     width: 100%; /* Full-width container */
     padding-bottom: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 50px;
+    font-family: 'Merriweather', serif;
 }
 
 #Title3{
@@ -97,11 +103,11 @@ header{
     justify-content: center; /* Centers the image horizontally */
     align-items: center; /* Centers the image vertically (if necessary) */
     width: 100%; /* Full-width container */
-    margin-top:-5px ;
+    margin-top:-5px;
 }
 
 #Title3{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
 }
  
 #cards {
@@ -113,7 +119,6 @@ header{
 }
 
 #FirstPic{
-    display: block;
     height: 30%;
     max-width: 50%;
     border: 5px solid rgba(0, 0, 0, 0.928);
@@ -130,6 +135,7 @@ header{
     border: 5px solid rgba(0, 0, 0, 0.928);
     border-radius: 20px;
     box-shadow:5px 5px 5px  #0000006e;
+    
 }
 
 .text-overlay {
@@ -151,9 +157,9 @@ header{
     color: rgb(0, 0, 0);
     text-shadow: 2px #292525;
     margin-left: 200px; /* Adjust the value as needed */
-    text-align: right; /* Ensures text aligns to the right within the element */
+    text-align: center; /* Ensures text aligns to the right within the element */
     padding-top: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
 
 }
 
@@ -163,8 +169,57 @@ header{
     text-shadow: 2px #292525;
     text-align: center; /* Ensures text aligns to the right within the element */
     padding-top: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom:20px;
+    font-family: 'Merriweather', serif;
 
+}
+
+#MainTitle3{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px #292525;
+    text-align: center; /* Ensures text aligns to the right within the element */
+    padding-top: 10px;
+    padding-bottom:20px;
+    font-family: 'Merriweather', serif;
+
+}
+
+#MainTitle4{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px #292525;
+    text-align: center; /* Ensures text aligns to the right within the element */
+    padding-top: 70px;
+    padding-bottom:20px;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+#FirstPic:hover {
+    transform: scale(1.2); /* 120% zoom */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+#FirstPic2:hover {
+    transform: scale(1.2); /* 120% zoom */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.btn12{
+    text-decoration: none;
+    color: #000000;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+
+.btn12 :visited{
+    color: #000000;
+}
+.btn12 :hover{
+    color: #8358c4;
 }
 
 footer {
